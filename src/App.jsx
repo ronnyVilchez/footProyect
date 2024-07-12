@@ -1,14 +1,11 @@
-import React from 'react'
-import MealDescription from './components/MealDescription'
+import { MealDescription } from './components/MealDescription'
 
-export default function App() {
+function App() {
+
   return (
     <>
+    <MealDescription/>
     </>
   )
 }
-
-
-
-
-
+export default App
