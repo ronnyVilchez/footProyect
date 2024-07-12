@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px; 
+    padding: 20px;
+    background-color: rgb(67, 68, 68);
+    background-image: url('/tablas.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.container-int {
+    background-color: #f8f3f3; 
+    border-radius: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.container-int img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container-int1 {
+    padding: 16px;
+}
+
+h2 {
+    margin: 0 0 8px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.searching{
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.input{
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-right: 40px;
+    border: 1px solid grey;
+}
+
+.button{
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    margin-right: 40px; 
+    border: 1px solid grey;
+}

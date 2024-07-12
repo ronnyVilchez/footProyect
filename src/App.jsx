@@ -1,7 +1,14 @@
 import React from 'react'
+import MealDescription from './components/MealDescription'
 
-export const App = () => {
+export default function App() {
   return (
-    <div>App</div>
+    <>
+    </>
   )
 }
+
+
+
+
+
