@@ -42,7 +42,7 @@ export const Categories = () => {
   }, [input])
   return (
     <>
-      <div className='container'>
+      <div className='containerCategories'>
         <nav className='nav'>
           <label htmlFor="input"><strong>Buscar Categoria</strong></label>
           <input id='input' type="text" onChange={onChange} />

@@ -24,6 +24,7 @@ useEffect(() => {
 
     return(
         <>
+        <div className="containerMeals">
         <div className="searching">
             <input onChange={(e) => setValue(e.target.value)} type="text" placeholder="¿Qué quieres ordenar?" className="input"/>
             <button className="button" >search</button>
@@ -38,6 +39,7 @@ useEffect(() => {
                     </div>
                 </div>
             ))}
+        </div>
         </div>
         </>
     )
